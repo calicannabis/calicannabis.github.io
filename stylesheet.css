@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* CSS Document */.desktop {
+	
+	
+	
+	width: 1920;
+	height: 1080;
+	
+}
+body {
+	background-color:#648C36;
+	font-family: Gotham, "helvetica Neue", Helvetuca,arial, "sans-serif";
+
+	
+	
+}	
+.intro {
+	width: 500px;
+	float: center;
+}
+.header {
+	width: 1920;
+	height: 221;
+	background-color: #C67A3C;
+}
+a {
+	color: #AD3D3F;
+}
+
+.menu {
+	font-family: Gotham, "helvetica Neue", Helvetuca,arial, "sans-serif";
+	color: #658327;
+}
+
+.menu:hover, .menu:focus {
+	fill: #fff;
+	color:#91E6EB;
+	transition: all 1s;
+}
+
+@media only screen and (max-width: 
+700px) {
+	.right{
+		margin-left: 0px;
+		background-color: #0C7b00;
+	}
+}
